@@ -40,7 +40,7 @@ const workerConfig: WorkerConfig = {
       // [OPTIONAL] headers to be sent
       headers: {
         'User-Agent': 'Uptimeflare',
-        Authorization: 'Bearer YOUR_TOKEN_HERE',
+        // Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
       // [OPTIONAL] body to be sent (require POST/PUT/PATCH method)
       // body: 'Hello, world!',
@@ -62,7 +62,7 @@ const workerConfig: WorkerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: 'mc.zec.kdns.fr',
+      target: 'mc.zec.kdns.fr:25565',
       tooltip: 'Minecraft JE/BE MiniGame Entry Server',
       statusPageLink: 'https://example.com',
       timeout: 5000,
