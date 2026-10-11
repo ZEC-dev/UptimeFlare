@@ -46,7 +46,7 @@ const workerConfig: WorkerConfig = {
     },
     {
       id: 'WordPress_monitor',
-      name: 'nas',
+      name: 'WordPress',
       method: 'GET',
       target: 'https://zec.page.gd',
       tooltip: 'nas',
